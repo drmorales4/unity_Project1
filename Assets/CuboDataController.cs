@@ -6,12 +6,13 @@ using UnityEngine.UI;
 public class CuboDataController : MonoBehaviour, IAction
 {
 
-    [SerializeField] string textoTitulo;
+    [SerializeField] public int numStand;
     [SerializeField] Text uiText;
+    [SerializeField] Controller controller;
 
     public void Activate()
     {
-        uiText.text = textoTitulo;
+        uiText.text = controller.data.stand[numStand].title;
     }
 
     // Start is called before the first frame update

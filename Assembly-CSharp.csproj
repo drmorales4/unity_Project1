@@ -62,10 +62,13 @@
   <ItemGroup>
     <Compile Include="Assets\CuboDataController.cs" />
     <Compile Include="Assets\CursorController.cs" />
+    <Compile Include="Assets\DataController.cs" />
     <Compile Include="Assets\Interaction System\CheckInteraction.cs" />
     <Compile Include="Assets\Interaction System\Extra Assets\UI.cs" />
     <Compile Include="Assets\Interaction System\IAction.cs" />
     <Compile Include="Assets\Interaction System\InteractionReceiver.cs" />
+    <Compile Include="Assets\Json\Controller.cs" />
+    <Compile Include="Assets\Json\JsonClass.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
@@ -103,6 +106,7 @@
     <Compile Include="Assets\UIController.cs" />
     <None Include="Assets\LeanTween\Examples\Archived\2dUnlitWithFade.shader" />
     <None Include="Assets\LeanTween\ReadMe.txt" />
+    <None Include="Assets\JsonDotNet\link.xml" />
     <None Include="Assets\LeanTween\License.txt" />
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>D:/MORALITOS/Desktop/Documentos Sexto Ciclo/PRACTICUM 2.2/unity/proyectos_unity/unity_Project1/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
@@ -328,6 +332,9 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>D:/MORALITOS/Desktop/Documentos Sexto Ciclo/PRACTICUM 2.2/unity/proyectos_unity/unity_Project1/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:/MORALITOS/Desktop/Documentos Sexto Ciclo/PRACTICUM 2.2/unity/proyectos_unity/unity_Project1/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.34f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
