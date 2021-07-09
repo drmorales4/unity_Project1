@@ -103,6 +103,8 @@
     <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\TrackController.cs" />
+    <Compile Include="Assets\Scripts\VideoPlayerController.cs" />
     <Compile Include="Assets\UIController.cs" />
     <None Include="Assets\LeanTween\Examples\Archived\2dUnlitWithFade.shader" />
     <None Include="Assets\LeanTween\ReadMe.txt" />
